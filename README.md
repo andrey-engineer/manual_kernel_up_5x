@@ -110,3 +110,5 @@ echo "###   Hi from 3 stage" >> /boot/grub2/grub.cfg
 # Сборка образа завершена:)
 # Готовый образ залит на app.vagrantup.com
 https://app.vagrantup.com/andrey-engineer/boxes/centos-7-8
+
+Скрипты и код https://github.com/andrey-engineer/manual_kernel_up_5x/commit/4f77dead6040eec329411e826f670f4103281dbb
