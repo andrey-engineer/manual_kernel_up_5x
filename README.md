@@ -108,4 +108,5 @@ grub2-set-default 0
 echo "###   Hi from 3 stage" >> /boot/grub2/grub.cfg
 
 # Сборка образа завершена:)
-# Готовый образ залит на app.vagrantup.com andrey-engineer/centos-7-8
+# Готовый образ залит на app.vagrantup.com
+https://app.vagrantup.com/andrey-engineer/boxes/centos-7-8
