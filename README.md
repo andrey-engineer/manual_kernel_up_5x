@@ -14,7 +14,8 @@
 
 [andrey@fedora Super-obraz]$ ./packer build centos.json
 
-# Идет процесс скачивания дистрибутива и установка базового набора ПО.
+Идет процесс скачивания дистрибутива и установка базового набора ПО.
+
 # (stage-1-kernel-update.sh):
 
 #!/bin/bash
