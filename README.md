@@ -14,8 +14,8 @@
 
 [andrey@fedora Super-obraz]$ ./packer build centos.json
 
-Идет процесс скачивания дистрибутива и установка базового набора ПО.
-(stage-1-kernel-update.sh):
+# Идет процесс скачивания дистрибутива и установка базового набора ПО.
+# (stage-1-kernel-update.sh):
 
 #!/bin/bash
 
@@ -54,8 +54,8 @@ echo "Grub update done."
 # Reboot VM
 shutdown -r now
 
-2 этап "Инсталляция VBoxGuestAdditions"
-(stage-2-vbox-guest-addon.sh)
+# 2 этап "Инсталляция VBoxGuestAdditions"
+# (stage-2-vbox-guest-addon.sh)
 
 #!/bin/bash
 
@@ -82,8 +82,8 @@ usermod -aG vboxsf vagrant
 # Reboot VM
 shutdown -r now
 
-3 Этап "Подготовка образа"
-(stage-3-clean.sh)
+# 3 Этап "Подготовка образа"
+# (stage-3-clean.sh)
 
 #!/bin/bash
 
@@ -107,4 +107,4 @@ sync
 grub2-set-default 0
 echo "###   Hi from 3 stage" >> /boot/grub2/grub.cfg
 
-Сборка образа завершена.
+# Сборка образа завершена:)
